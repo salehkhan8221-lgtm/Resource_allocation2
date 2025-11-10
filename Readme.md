@@ -1,29 +1,69 @@
 🧠 Intelligent Resource Allocation using Machine Learning
-📋 Project Overview
 
-This project predicts optimal resource allocation based on system performance metrics such as CPU usage, memory, bandwidth, and latency.
-It uses a Linear Regression model trained on sample data to estimate resource needs efficiently.
 
-⚙️ Technologies Used
 
-Python 3.11
 
-Pandas, NumPy
+
+
+📘 Overview
+
+A Machine Learning-based Streamlit web app that predicts optimal cloud resource allocation using:
+
+CPU Usage (%)
+
+Memory Usage (GB)
+
+Bandwidth (Mbps)
+
+Latency (ms)
+
+Goal: Improve efficiency and dynamic resource management in cloud systems.
+
+⚙️ Features
+
+✅ Real-time input and prediction
+✅ Linear Regression–based ML model
+✅ Interactive Streamlit interface
+✅ Visual bar chart of input metrics
+✅ Deployed on Streamlit Cloud
+
+🧮 Methodology
+
+Data Preparation: 4 input parameters
+
+Scaling: MinMaxScaler used for normalization
+
+Model Training: Linear Regression algorithm
+
+Evaluation: MAE, R² Score
+
+Deployment: Streamlit + GitHub integration
+
+🖥️ Technologies Used
+
+Python
+
+Streamlit
 
 Scikit-learn
 
-Streamlit (for web-based UI)
+Pandas, NumPy
 
-📊 Features
+Matplotlib
 
-✅ Predicts resource allocation based on four key parameters
-✅ Scales input features using MinMaxScaler
-✅ Simple and interactive Streamlit interface
-✅ Ready for deployment on Streamlit Cloud
+🌐 Live Demo
 
-🧩 Input Parameters
-Parameter	Description	Example
-CPU Usage (%)	CPU utilization percentage	60
-Memory Usage (GB)	RAM usage	3.0
-Bandwidth (Mbps)	Network bandwidth	100
-Latency (ms)	Response time delay	7
+🔗 App Link:
+👉 https://salehkkhan8221-lgtn-resource-allocation2.streamlit.app
+
+👨‍💻 Developed By
+
+Swaleh Khan
+B.Tech CSE | Batch 2025
+Department of Computer Science
+
+📜 License
+
+This project is open-source under the MIT License
+
+
