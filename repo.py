@@ -1,11 +1,15 @@
 import streamlit as st
 import pickle
 import numpy as np
+import os
 
 # Load model and scaler
-model = pickle.load(open("model.pkl", "rb"))
-import os
-scaler = pickle.load(open(os.path.join(os.path.dirname(__file__) , "scaler.pkl") , "rb"))
+base_path = 
+os.path.dirname(__file__)
+model = 
+pickle.load(open(os.path.join(base_path, "model.pkl") , "rb"))
+scaler =
+pickle.load(open(os.path.join(base_path, "scaler.pkl") , "rb"))
 
 st.title("🧠 Intelligent Resource Allocation")
 st.markdown("Predict optimal resource allocation based on system metrics")
