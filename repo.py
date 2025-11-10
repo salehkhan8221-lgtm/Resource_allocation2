@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 # Load model and scaler
-base_path =
+base_path = " "
 os.path.dirname(__file__)
 model = 
 pickle.load(open(os.path.join(base_path, "model.pkl") , "rb"))
