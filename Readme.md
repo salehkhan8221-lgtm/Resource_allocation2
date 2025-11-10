@@ -1,11 +1,15 @@
-🧠 Intelligent Resource Allocation using Machine Learning
+# 🧠 Intelligent Resource Allocation using Machine Learning  
 
+[![Streamlit App](https://img.shields.io/badge/Live-App-brightgreen?logo=streamlit)](https://salehkkhan8221-lgtn-resource-allocation2.streamlit.app)
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Made with Love](https://img.shields.io/badge/Made%20with❤️%20by-Swaleh%20Khan-red)](https://github.com/salehkkhan8221-lgtn)
 
+A Machine Learning-based Streamlit web app that predicts optimal cloud resource allocation using CPU, Memory, Bandwidth, and Latency metrics.
 
+---
 
-
-
-📘 Overview
+## 📘 Overview
 
 A Machine Learning-based Streamlit web app that predicts optimal cloud resource allocation using:
 
