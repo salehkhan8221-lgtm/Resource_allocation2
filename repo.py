@@ -4,7 +4,8 @@ import numpy as np
 
 # Load model and scaler
 model = pickle.load(open("model.pkl", "rb"))
-scaler = pickle.load(open("scaler.pkl", "rb"))
+import os
+scaler = pickle.load(open(os.path.join(os.path.dirname(__file__) , "scaler.pkl") , "rb"))
 
 st.title("🧠 Intelligent Resource Allocation")
 st.markdown("Predict optimal resource allocation based on system metrics")
